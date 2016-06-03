@@ -1,5 +1,9 @@
 /* Styling for the Gold Rush Angular App */
 
+#map-container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
 .mapMarkerStyle {
 	position: absolute;
 }

@@ -34,7 +34,7 @@
 
 				<div ng-repeat="mapMarker in mapCtrl.mapMarkerList">
 					<img class="mapMarkerStyle" src="./images/map-marker.png"
-						 style="top:{{mapMarker.y}}px; left:{{mapMarker.x}}px;"
+						 style="top:{{mapMarker.y}}%; left:{{mapMarker.x}}%;"
 					 	 ng-click="mapCtrl.removeMapMarker($index)"/>
 				</div>
 			</div>
